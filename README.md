@@ -24,13 +24,13 @@
 
   
 
-<a href="https://github.com/kingmalvn/AKIO-MD/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-purple" alt="FORK AKIO" width="150"></a>
+<a href="https://github.com/kingmalvn/AKIO-MD/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-blue" alt="FORK AKIO" width="150"></a>
 ***
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
  <h1 align="center">  𝐆𝐄𝐓 𝐘𝐎𝐔𝐑 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 </h1>
-  <a href="https://malvin-session-0h9e.onrender.com/pair"><img src="https://img.shields.io/badge/Pair%20session%20code-white" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="300"></a>
+  <a href="https://malvin-session-0h9e.onrender.com/pair"><img src="https://img.shields.io/badge/Pair%20session%20code-green" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="200"></a>
 
 ***
 
@@ -51,7 +51,8 @@
 <details>
 <summary>CLICK FOR MORE</summary>
 <a href="https://github.com/kingmalvn/MALVIN-MD/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20FILES-green" alt="Rainhost Files" width="150"></a>
-  
+
+
 <a href="https://bot-hosting.net/?aff=1231885228566646795"><img src="https://img.shields.io/badge/SIGNUP%20&%20DEPLOY-blue" alt="Scalingo Deploy" width="150"></a>
 </details
 
@@ -64,7 +65,7 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-## 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗨𝗦 𝗕𝗬 𝗝𝗢𝗜𝗡𝗜𝗡𝗚 𝗧𝗛𝗘𝗦𝗘 𝗟𝗜𝗡𝗞𝗦
+## **JOIN FOR UPDATES** 
 
 
 **𝗖𝗵𝗮𝗻𝗻𝗲𝗹**
