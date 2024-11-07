@@ -2,7 +2,7 @@
 <h1 align="center"> AKIO MD </h1>
 
  
-<h1 align="center"> Survival is winning.
+<h1 align="center"> Survival is winning / love is bushit.
 </h1>
 
 
@@ -24,7 +24,7 @@
 
   
 
-<a href="https://github.com/keithkeizzah/KEITH-MD2/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-purple" alt="FORK KEITH" width="150"></a>
+<a href="https://github.com/keithkeizzah/AKIO-MD2/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-purple" alt="FORK KEITH" width="150"></a>
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -37,7 +37,7 @@
 ###  𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐇𝐄𝐑𝐎𝐊𝐔:
 
 
- ***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/keithkeizzah/KEITH-MD2&template=https://github.com/keithkeizzah/KEITH-MD2.git)***
+ ***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/kingmalvn/MALVIN-MD&template=https://github.com/kingmalvn/MALVIN-MD.git)***
 
 <br>
 
@@ -48,9 +48,9 @@
 **𝗛𝗢𝗦𝗧 𝗢𝗡 𝗗𝗜𝗦𝗖𝗢𝗥𝗗**
 <details>
 <summary>CLICK FOR MORE</summary>
-<a href="https://github.com/keithkeizzah/KEITH-MD2/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20FILES-yellow" alt="Rainhost Files" width="150"></a>
+<a href="https://github.com/kingmalvn/MALVIN-MD/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20FILES-green" alt="Rainhost Files" width="150"></a>
   
-<a href="https://bot-hosting.net/?aff=1259151615210819614"><img src="https://img.shields.io/badge/SIGNUP%20&%20DEPLOY-gold" alt="Scalingo Deploy" width="150"></a>
+<a href="https://bot-hosting.net/?aff=1231885228566646795"><img src="https://img.shields.io/badge/SIGNUP%20&%20DEPLOY-blue" alt="Scalingo Deploy" width="150"></a>
 </details
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -64,23 +64,18 @@
 
 ## 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗨𝗦 𝗕𝗬 𝗝𝗢𝗜𝗡𝗜𝗡𝗚 𝗧𝗛𝗘𝗦𝗘 𝗟𝗜𝗡𝗞𝗦
 
-**𝗚𝗿𝗼𝘂𝗽**
-- <a href="https://chat.whatsapp.com/DvXonepPp1XBPOYIBziTl1" target="_blank">
-    <img alt="CLICK HERE" src="https://img.shields.io/badge/ JOIN OUR WHATSAPP GROUP  -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
-
 
 **𝗖𝗵𝗮𝗻𝗻𝗲𝗹**
 <p align="centre">
-  <a href="https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47">
-    <img align="left" alt="SIEGRIN | Whastapp" width="86px" src="https://raw.githubusercontent.com/PikaBotz/My_Personal_Space/main/Images/AnyaBot_pics/Anya_v2/Whatsapp.svg" />
+  <a href="https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z">
+    <img align="left" alt="MALVIN | Whastapp" width="86px" src="https://raw.githubusercontent.com/PikaBotz/My_Personal_Space/main/Images/AnyaBot_pics/Anya_v2/Whatsapp.svg" />
   
 
    
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
-Enjoy the diverse features of 𝐊𝐄𝐈𝐓𝐇-𝐌𝐃  to enhance your Whatsapp more enjoyable
+Enjoy the diverse features of AKIO-𝐌𝐃  to enhance your Whatsapp more enjoyable
 
 
 ### Credits to:
