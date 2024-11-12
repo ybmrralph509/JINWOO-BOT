@@ -17,9 +17,9 @@ module.exports = async (context) => {
         return new Promise((resolve) => {
           client.groupMetadata(i).then((metadat) => {
             setTimeout(() => {
-              jackhuh += `Subject:- ${metadat.subject}\n`
-              jackhuh += `Members: ${metadat.participants.length}\n`
-              jackhuh += `Jid:- ${i}\n\n`
+              jackhuh += `𝚂𝚞𝚋𝚓𝚎𝚌𝚝𝚜:- ${metadat.subject}\n`
+              jackhuh += `𝙼𝚎𝚖𝚋𝚎𝚛𝚜: ${metadat.participants.length}\n`
+              jackhuh += `𝙹𝚒𝚍:- ${i}\n\n`
               resolve()
             }, 500);
           })

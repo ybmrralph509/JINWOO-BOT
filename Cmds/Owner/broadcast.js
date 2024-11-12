@@ -18,7 +18,7 @@ await m.reply("sending broadcast message...")
 for (let i of res) { 
 
 
-let txt = `❗BROADCAST MESSAGE (Keith) ❗\n\n🀄 Message: ${text}\n\nWritten by: ${pushname}` 
+let txt = `❗BROADCAST MESSAGE (𝙰𝙺𝙸𝙾) ❗\n\n🀄 Message: ${text}\n\nWritten by: ${pushname}` 
 
 await client.sendMessage(i, { 
                  image: { 
