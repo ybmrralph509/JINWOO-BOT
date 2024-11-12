@@ -2,7 +2,7 @@
 <h1 align="center"> AKIO MD </h1>
 
  
-<h1 align="center"> Survival is winning / love is bushit.
+<h1 align="center"> Love is bushit.
 </h1>
 
 
@@ -60,7 +60,7 @@
 ###  𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐇𝐄𝐑𝐎𝐊𝐔:
 
 
- ***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/kingmalvn/MALVIN-MD&template=https://github.com/kingmalvn/MALVIN-MD.git)***
+ ***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/kingmalvn/AKIO-MD&template=https://github.com/kingmalvn/AKIO-MD.git)***
 
 <br>
 
@@ -107,7 +107,7 @@
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
-Enjoy the diverse features of AKIO-𝐌𝐃  to enhance your Whatsapp more enjoyable
+Enjoy the diverse features of 𝐀𝐊𝐈𝐎-𝐌𝐃  to enhance your Whatsapp more enjoyable
 
 
 ### Credits to:

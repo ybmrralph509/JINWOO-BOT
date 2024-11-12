@@ -82,7 +82,7 @@ async function startDreaded() {
 
       if (autoview === 'true' && autolike === 'true' && mek.key && mek.key.remoteJid === "status@broadcast") {
         const mokayas = await client.decodeJid(client.user.id);
-        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '💚' } }, { statusJidList: [mek.key.participant, mokayas] });
+        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '❤️‍🔥' } }, { statusJidList: [mek.key.participant, mokayas] });
       }
 
       if (autoview === 'true' && mek.key && mek.key.remoteJid === "status@broadcast") {
@@ -197,7 +197,7 @@ async function startDreaded() {
       }
     } else if (connection === "open") {
 
-      await client.groupAcceptInvite("DvXonepPp1XBPOYIBziTl1");
+      await client.groupAcceptInvite("GFp6TrVc6ebAPK9qIsEu50");
 
       console.log(`✅ Connection successful\nLoaded ${totalCommands} commands.\nBot is active.`);
 
@@ -220,7 +220,7 @@ async function startDreaded() {
             return DateTime.now().setZone('Africa/Nairobi').toLocaleString(DateTime.TIME_SIMPLE);
         };
 
-        let message = `Holla, ${getGreeting()},\n\n╭═══『AKIO 𝐌𝐝 𝐢𝐬 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝』══⊷ \n`;
+        let message = `Holla, ${getGreeting()},\n\n╭═══『𝐀𝐊𝐈𝐎 𝐌𝐝 𝐢𝐬 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝』══⊷ \n`;
 
         message += `║ ʙᴏᴛ ɴᴀᴍᴇ ${botname}\n`;
 message += `║ ᴍᴏᴅᴇ ${mode}\n`;
