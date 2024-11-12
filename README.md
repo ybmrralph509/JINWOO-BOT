@@ -84,7 +84,7 @@
 <a href="https://host.joanimi-world.site/register?ref=Y6cRRMpo"><img src="https://img.shields.io/badge/MEGA-HOSTING%20%20DEPLOY-purple" alt="Scalingo Deploy" width="150"></a>
 
 
-<a href="https://optiklink.com/"><img src="https://img.shields.io/badge/OPTLINK-HOSTING%20%20DEPLOY-blue" alt="Scalingo Deploy" width="150"></a>
+<a href="https://optiklink.com/auth"><img src="https://img.shields.io/badge/OPTLINK-HOSTING%20%20DEPLOY-blue" alt="Scalingo Deploy" width="150"></a>
 
 
 </details
