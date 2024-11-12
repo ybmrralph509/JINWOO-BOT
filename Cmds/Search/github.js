@@ -2,40 +2,38 @@ module.exports = async (context) => {
 
 const { client, m, text } = context;
 
-if (!text) return m.reply('Provide a github username to stalk');
-
 try {
+if (!text) return m.reply("provide a gitHub username to fetch profile !")
 
-const response = await fetch(`https://itzpire.com/stalk/github-user?username=${text}`)
+const response = await fetch(`https://api.github.com/users/${text}`);
+const data = await response.json();
 
-const data = await response.json()
- 
-    const username = data.data.username;
-    const nickname = data.data.nickname;
-    const bio = data.data.bio;
-    const profilePic = data.data.profile_pic;
-    const url = data.data.url;
-    const type = data.data.type;
-    const isAdmin = data.data.admin;
-    const company = data.data.company;
-    const blog = data.data.blog;
-    const location = data.data.location;
-    const publicRepos = data.data.public_repo;
-    const publicGists = data.data.public_gists;
-    const followers = data.data.followers;
-    const following = data.data.following;
-    const createdAt = data.data.ceated_at;
-    const updatedAt = data.data.updated_at;
+const pic = `https://github.com/${data.login}.png`;
 
-    
-const message = `Username:- ${username}\n\nNickname:- ${nickname}\n\nBio:- ${bio}\n\nLink:- ${url}\n\nLocation:- ${location}\n\nFollowers:- ${followers}\n\nFollowing:- ${following}\n\nRepos:- ${publicRepos}\n\nCreated:- ${createdAt}`
 
-await client.sendMessage(m.chat, { image: { url: profilePic}, caption: message}, {quoted: m})
+const userInfo = `
+°GITHUB USER INFO°
 
-} catch (error) {
+♦️ Name: ${data.name}
+🔖 Username: ${data.login}
+✨ Bio: ${data.bio}
+🏢 Company: ${data.company}
+📍 Location: ${data.location}
+📧 Email: ${data.email}
+📰 Blog: ${data.blog}
+🔓 Public Repo: ${data.public_repos}
+👪 Followers: ${data.followers}
+🫶 Following: ${data.following}
+`;
 
-m.reply("Unable to fetch data\n" + error)
+await client.sendMessage(m.chat, { image: { url: pic }, caption: userInfo }, { quoted: m });
+
+
+
+} catch (e) {
+
+m.reply("I did not find that user, try again");
 
 }
 
-} 
+}
