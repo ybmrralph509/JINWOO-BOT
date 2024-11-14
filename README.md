@@ -50,6 +50,13 @@
 <a href="https://github.com/kingmalvn/AKIO-MD/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-blue" alt="FORK AKIO" width="150"></a>
 ***
 
+**🥰HOW TO DEPLOY** 
+
+
+
+<a href="https://youtu.be/_w7jE_Wj2oA?si=hd5skeGHB7MjieB0"><img src="https://img.shields.io/badge/CLICK%20HERE-red" alt="FORK AKIO" width="150"></a>
+***
+
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
  <h1 align="center">  𝐆𝐄𝐓 𝐘𝐎𝐔𝐑 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 </h1>
