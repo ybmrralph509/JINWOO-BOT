@@ -5,7 +5,7 @@ module.exports = async (context) => {
 
     try {
         if (!text) {
-            return m.reply("Ask any news update and Akio bot will send you.");
+            return m.reply("Ask any news update and Alpha bot will send you.");
         }
 
         const query = encodeURIComponent(text); // Encode the query to handle special characters
