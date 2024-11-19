@@ -2,7 +2,7 @@
 <h1 align="center"> AKIO MD </h1>
 
  
-<h1 align="center"> Love is bushit.
+<h1 align="center"> Emotionless King.
 </h1>
 
 
@@ -38,7 +38,7 @@
 <summary>𝐕𝐈𝐄𝐖 𝐋𝐀𝐓𝐄𝐒𝐓 𝐁𝐎𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐇𝐄𝐑𝐄👇</summary>
   
 - 𝑨𝒍𝒍 𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅𝒆𝒓𝒔 𝑭𝒊𝒙𝒆𝒅 𝒂𝒏𝒅 𝒂𝒓𝒆 𝑾𝒐𝒓𝒌𝒊𝒏𝒈🔥.
-- 𝑶𝒗𝒆𝒓𝒂𝒍 𝑷𝒆𝒓𝒇𝒐𝒓𝒎𝒂𝒏𝒄𝒆 𝑰𝒎𝒑𝒓𝒐𝒗𝒆𝒎𝒆𝒏𝒕𝒔🤫.
+- 𝑶𝒗𝒆𝒓𝒂𝒍 𝑷𝒆𝒓𝒇𝒐𝒓𝒎𝒂𝒏𝒄𝒆 𝑰𝒎𝒑𝒓𝒐𝒗𝒆𝒎𝒆𝒏𝒕𝒔🤫💖.
 
 </details>
 
@@ -48,13 +48,6 @@
   
 
 <a href="https://github.com/kingmalvn/AKIO-MD/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-blue" alt="FORK AKIO" width="150"></a>
-***
-
-**🥰HOW TO DEPLOY** 
-
-
-
-<a href="https://youtu.be/_w7jE_Wj2oA?si=hd5skeGHB7MjieB0"><img src="https://img.shields.io/badge/CLICK%20HERE-red" alt="FORK AKIO" width="150"></a>
 ***
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -109,7 +102,7 @@
 
 
 **𝗖𝗵𝗮𝗻𝗻𝗲𝗹**
-<p align="centre">
+<p align="left">
   <a href="https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z">
     <img align="left" alt="MALVIN | Whastapp" width="86px" src="https://raw.githubusercontent.com/PikaBotz/My_Personal_Space/main/Images/AnyaBot_pics/Anya_v2/Whatsapp.svg" />
   
