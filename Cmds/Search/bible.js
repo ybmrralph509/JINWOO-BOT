@@ -25,7 +25,7 @@ module.exports = async (context) => {
         const language = data.translation_name;
 
         // Create the message
-        const message = `𝐀𝐊𝐈𝐎 𝗠𝗗 𝗕𝗜𝗕𝗟𝗘\n\nWe are reading: ${data.reference}\n\nNumber of verses: ${verses}\n\nNow Read: ${contentText}\n\nTranslation: ${language}`;
+        const message = `𝘼𝙆𝙄𝙊 𝗠𝗗 𝗕𝗜𝗕𝗟𝗘\n\nWe are reading: ${data.reference}\n\nNumber of verses: ${verses}\n\nNow Read: ${contentText}\n\nTranslation: ${language}`;
 
         // Send the message
         await client.sendMessage(m.chat, { text: message }, { quoted: m });

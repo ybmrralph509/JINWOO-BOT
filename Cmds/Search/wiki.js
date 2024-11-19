@@ -9,13 +9,13 @@ const wiki = require('wikipedia');
         try {
             if (!text) return m.reply(`Provide the term to search,\nE.g What is JavaScript!`)
             const con = await wiki.summary(text);
-            const texa = `𝕋𝕀𝕋𝕃𝔼:- ${con.title}
+            const texa = `Title:- ${con.title}
                   
-𝔻𝕖𝕤𝕔:- ${con.description}
+Desc:- ${con.description}
 
-𝕊𝕦𝕞𝕞𝕒𝕣𝕪:- ${con.extract}
+Summary:- ${con.extract}
 
-𝕌ℝ𝕃:- ${con.content_urls.mobile.page}
+URL:- ${con.content_urls.mobile.page}
         `
             m.reply(texa)
         } catch (err) {

@@ -3,7 +3,7 @@ module.exports = async (context) => {
 
 
   const messageCaption = `
- 𝐀𝐊𝐈𝐎 𝐌𝐃 𝐁𝐈𝐁𝐋𝐄 𝐁𝐎𝐎𝐊 𝐋𝐈𝐒𝐓
+ 𝐀𝐊𝐈𝐎-𝐌𝐃 𝐁𝐈𝐁𝐋𝐄 𝐁𝐎𝐎𝐊 𝐋𝐈𝐒𝐓
 
 Old Testament:
 1. Genesis

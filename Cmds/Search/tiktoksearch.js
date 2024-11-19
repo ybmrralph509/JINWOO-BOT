@@ -3,7 +3,7 @@ module.exports = async (context) => {
 
     try {
         if (!text) {
-            return m.reply('Provide TikTok username. eg malvinquotes');
+            return m.reply('Provide TikTok username.');
         }
 
         const query = encodeURIComponent(text);
@@ -27,7 +27,7 @@ module.exports = async (context) => {
         const id = item.nowm; 
         const imageUrl = item.imageUrl || ''; 
 
-        const message = `*𝐀𝐊𝐈𝐎 𝐌𝐃 𝐓𝐈𝐊𝐓𝐎𝐊 𝐒𝐄𝐀𝐑𝐂𝐇*\n\n𝕋𝕀𝕋𝕃𝔼: ${title}\n𝔻𝕖𝕤𝕔: ${info}\nℝ𝔼𝔾𝕀𝕆ℕ: ${region}\nℂℝ𝔼𝔸𝕋𝕆ℝ: ${creator}\nId: ${id}`;
+        const message = `*AKIO-MD TIKTOK SEARCH*\n\nTitle: ${title}\nInfo: ${info}\nRegion: ${region}\nCreator: ${creator}\nId: ${id}`;
 
         const options = { quoted: m };
         if (imageUrl) {

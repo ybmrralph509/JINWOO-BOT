@@ -14,9 +14,9 @@ const axios = require("axios");
             m.reply("❌ Unable to find a result")
             return;
         }
-        let tex = `𝐆𝐎𝐎𝐆𝐋𝐄 𝐒𝐄𝐀𝐑𝐂𝐇\n🔍 𝕋𝔼ℝ𝕄:- ${text}\n\n`;
+        let tex = `GOOGLE SEARCH\n🔍 Term:- ${text}\n\n`;
         for (let i = 0; i < data.items.length; i++) {
-            tex += `🪧 𝕋𝕀𝕋𝕃𝔼:- ${data.items[i].title}\n🖥 𝔻𝕖𝕤𝕔:- ${data.items[i].snippet}\n🌐 𝕌ℝ𝕃:- ${data.items[i].link}\n\n`
+            tex += `🪧 Title:- ${data.items[i].title}\n🖥 Description:- ${data.items[i].snippet}\n🌐 Link:- ${data.items[i].link}\n\n`
         }
         m.reply(tex)
        
