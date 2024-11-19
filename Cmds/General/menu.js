@@ -39,23 +39,23 @@ module.exports = async (context) => {
             return DateTime.now().setZone('Africa/Nairobi').toLocaleString(DateTime.TIME_SIMPLE);
         };
 
-        let menuText = `╰►Hey 🥰, ${getGreeting()},\n\n`;
+        let menuText = `╰►Hey, ${getGreeting()},\n\n`;
 
       
         menuText += `╭━━━  ⟮  ${botname} ⟯━━━━━━┈⊷\n`;
-          menuText += `┃│▸╭──────────────\n`; 
-        menuText += `┃│▸ ᴄᴏᴍᴍᴀɴᴅᴇʀ: ${m.pushName}\n`; 
-menuText += `┃│▸ ᴛᴏᴛᴀʟ ᴘʟᴜɢɪɴs: ${totalCommands}\n`
-        menuText += '┃│▸ ᴛɪᴍᴇ: ' + getCurrentTimeInNairobi() + '\n';
-        menuText += `┃│▸ ᴘʀᴇғɪx: ${prefix}\n`;
-menuText += `┃│▸ ᴍᴏᴅᴇ: ${mode}\n`;
-        menuText += '┃│▸ ʟɪʙʀᴀʀʏ: Baileys\n';
-        menuText += '┃│▸╰──────────────\n';
+          menuText += `┃╭──────────────\n`; 
+        menuText += `┃│ ᴄᴏᴍᴍᴀɴᴅᴇʀ: ${m.pushName}\n`; 
+menuText += `┃│ ᴛᴏᴛᴀʟ ᴘʟᴜɢɪɴs: ${totalCommands}\n`
+        menuText += '┃│ ᴛɪᴍᴇ: ' + getCurrentTimeInNairobi() + '\n';
+        menuText += `┃│ ᴘʀᴇғɪx: ${prefix}\n`;
+menuText += `┃│ ᴍᴏᴅᴇ: ${mode}\n`;
+        menuText += '┃│ ʟɪʙʀᴀʀʏ: Baileys\n';
+        menuText += '┃╰──────────────\n';
         menuText += '╰━━━━━━━━━━━━━━━━━━┈⊷\n';
 
        
         menuText += '━━━━━━━━━━━━━━━━━━━━\n';
-        menuText += '*┃𒊹┃𒊹┃𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗┃𒊹┃𒊹┃:*\n\n';
+        menuText += '*Created by Lord Malvin:*\n\n';
 
 
         const toFancyUppercaseFont = (text) => {
