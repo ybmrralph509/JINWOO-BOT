@@ -9,14 +9,14 @@ module.exports = async (context) => {
 
         const { fact } = await response.json();
         const factMessage = `
-┏━━━ *AKIO-FACT* ━━━◆                     
+┏━━━ *Akio-FACT* ━━━◆                     
 ┃
 ┃   *◇* ${fact} 
 ┃
-┃   *◇* Regards *AKIO MD*
+┃   *◇* Regards *Lord Malvin*
 ┃      
  ╭───────────────◆
- │ *_Powered by malvin md._*
+ │ *_Powered by akio md._*
  ╰───────────────◆
         `;
 
