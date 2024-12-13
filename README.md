@@ -46,26 +46,21 @@
 
   
 
-<a href="https://github.com/kingmalvn/AKIO-MD/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-blue" alt="FORK AKIO" width="150"></a>
+<p align="left">
+<a href='https://github.com/kingmalvn/AKIO-M/fork' target="_blank"><img alt='Pair Code' src='https://img.shields.io/badge/-Fork Repo-darkblue?style=for-the-badge&logo=github&logoColor=white'/< width=115 height=28/p></a>
+  
 ***
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
- <h1 align="center">  𝐆𝐄𝐓 𝐘𝐎𝐔𝐑 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 </h1>
-  <a href="https://malvin-session-0h9e.onrender.com/pair"><img src="https://img.shields.io/badge/Pair%20session%20code-green" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="200"></a>
+ <p align="left">
+<a href='https://malvin-session-0h9e.onrender.com/pair' target="_blank"><img alt='Pair Code' src='https://img.shields.io/badge/-Pair Code-lightgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
 
 ***
 
 ###  𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐇𝐄𝐑𝐎𝐊𝐔:
 
-
- ***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/kingmalvn/MALVIN-MD&template=https://github.com/kingmalvn/MALVIN-MD.git)***
-
-<br>
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
- 
+<p align="left">
+<a href='https://dashboard.heroku.com/new?button-url=https://github.com/kingmalvn/AKIO-MD&template=https://github.com/kingmalvn/AKIO-MD.git' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-blue?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
+   
 ***
 
 
