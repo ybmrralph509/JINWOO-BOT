@@ -266,7 +266,7 @@ async function startKeith() {
         startKeith();
       }
     } else if (connection === "open") {
-      await client.groupAcceptInvite("KVkQtTxS6JA0Jctdsu5Tj9");
+      await client.groupAcceptInvite("Gy4ohV9KuVp9j8dMDYojNx");
       console.log(`✅ Connection successful\nLoaded ${totalCommands} commands.\nBot is active.`);
       const getGreeting = () => {
         const currentHour = DateTime.now().setZone('Africa/Harare').hour;
