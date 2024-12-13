@@ -1,2 +1,354 @@
+/* this is the main file */
 
-const _0x599875=_0x45e9;function _0x45e9(_0x613c48,_0x350db4){const _0x4aa1d2=_0x4aa1();return _0x45e9=function(_0x45e9bd,_0x1ea825){_0x45e9bd=_0x45e9bd-0x154;let _0xab1ec3=_0x4aa1d2[_0x45e9bd];return _0xab1ec3;},_0x45e9(_0x613c48,_0x350db4);}(function(_0x550cab,_0x270d3f){const _0x562e1e=_0x45e9,_0x141973=_0x550cab();while(!![]){try{const _0x4a079a=-parseInt(_0x562e1e(0x154))/0x1+parseInt(_0x562e1e(0x167))/0x2*(-parseInt(_0x562e1e(0x165))/0x3)+-parseInt(_0x562e1e(0x193))/0x4+-parseInt(_0x562e1e(0x168))/0x5+-parseInt(_0x562e1e(0x183))/0x6*(parseInt(_0x562e1e(0x16d))/0x7)+-parseInt(_0x562e1e(0x17d))/0x8+parseInt(_0x562e1e(0x17c))/0x9;if(_0x4a079a===_0x270d3f)break;else _0x141973['push'](_0x141973['shift']());}catch(_0x12f3d0){_0x141973['push'](_0x141973['shift']());}}}(_0x4aa1,0xc4716));import _0x2f665a from'dotenv';_0x2f665a[_0x599875(0x181)]();import{makeWASocket,Browsers,fetchLatestBaileysVersion,DisconnectReason,useMultiFileAuthState}from'@whiskeysockets/baileys';import{Handler,Callupdate,GroupUpdate}from'./lordmalvin/lord/index.js';import _0x4ecc7b from'express';import _0x416691 from'pino';import _0x5687e2 from'fs';import _0x13d2e9 from'node-cache';import _0x374270 from'path';import _0x4b0fc4 from'chalk';import _0x534073 from'moment-timezone';import _0x5a7360 from'axios';import _0xccedb8 from'./config.cjs';import _0x11fa72 from'./lib/autoreact.cjs';const {emojis,doReact}=_0x11fa72,sessionName=_0x599875(0x15a),app=_0x4ecc7b(),orange=_0x4b0fc4[_0x599875(0x18f)][_0x599875(0x182)]('#FFA500'),lime=_0x4b0fc4['bold'][_0x599875(0x182)](_0x599875(0x18b));let useQR=![],initialConnection=!![];const PORT=process['env']['PORT']||0xbb8,MAIN_LOGGER=_0x416691({'timestamp':()=>_0x599875(0x17b)+new Date()[_0x599875(0x174)]()+'\x22'}),logger=MAIN_LOGGER[_0x599875(0x18e)]({});logger['level']=_0x599875(0x191);function _0x4aa1(){const _0x3dd939=['green','log','Critical\x20Error:','#32CD32','join','𝙼𝙰𝙻𝚅𝙸𝙽\x20𝙼𝙳\x20𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳\x20𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈\x20✅','child','bold','╭─────────────━┈⊷\x0a│\x20*𝙰𝙺𝙸𝙾\x20𝙼𝙳\x20𝚅𝟸\x20ɪs\x20ᴄᴏɴɴᴇᴄᴛᴇᴅ*\x0a╰─────────────━┈⊷\x0a\x0a╭─────────────━┈⊷\x0a│🥰\x20ʙᴏᴛ\x20ɴᴀᴍᴇ:\x20*𝙰𝙺𝙸𝙾\x20𝙼𝙳*\x0a│👨‍💻\x20ᴏᴡɴᴇʀ\x20:\x20*sɪʀ\x20ᴍᴀʟᴠɪɴ🪀*\x0a╰─────────────━┈⊷\x0a\x0a*Join\x20Whatsapp\x20Channel\x20For\x20Updates*\x0a_https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z_','trace','existsSync','3356672MkMswT','data','loggedOut','Please\x20add\x20your\x20session\x20to\x20SESSION_ID\x20env\x20!!','391546mqrxbH','group-participants.update','connection.update','get','length','remoteJid','session','Session\x20id\x20error\x20❌','pathname','output','random','Error\x20during\x20auto\x20reaction:','blue','error','MODE','fromMe','listen','87esffCF','split','63766JwDLtW','3826115rDSScW','exit','close','🥰𝙰𝙺𝙸𝙾\x20𝙼𝙳\x20𝙸𝚂\x20𝙾𝙽𝙻𝙸𝙽𝙴✅️','𝚁𝚎𝚜𝚝𝚊𝚛𝚝𝚎𝚍\x20𝚂𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢...!.','78757TEJvDD','private','loadMessage','akimd$','messages','public','dirname','toJSON','statusCode','promises','SESSION_ID','call','floor','𝙰𝙺𝙸𝙾\x20𝙼𝙳\x20𝚁𝚄𝙽𝙽𝙸𝙽𝙶...⏳',',\x22time\x22:\x22','46690659OSWfDs','8731152hCWzUR','url','send','mkdirSync','config','hex','198CjIozH','key','writeFile','message','messages.upsert'];_0x4aa1=function(){return _0x3dd939;};return _0x4aa1();}const msgRetryCounterCache=new _0x13d2e9(),__filename=new URL(import.meta[_0x599875(0x17e)])[_0x599875(0x15c)],__dirname=_0x374270[_0x599875(0x173)](__filename),sessionDir=_0x374270[_0x599875(0x18c)](__dirname,_0x599875(0x15a)),credsPath=_0x374270[_0x599875(0x18c)](sessionDir,'creds.json');!_0x5687e2['existsSync'](sessionDir)&&_0x5687e2[_0x599875(0x180)](sessionDir,{'recursive':!![]});async function downloadSessionData(){const _0x46f026=_0x599875;if(!_0xccedb8['SESSION_ID'])return console[_0x46f026(0x161)](_0x46f026(0x196)),![];const _0x331b8a=_0xccedb8[_0x46f026(0x177)][_0x46f026(0x166)](_0x46f026(0x170))[0x1],_0x170b41='https://pastebin.com/raw/'+_0x331b8a;try{const _0x5a3e5f=await _0x5a7360[_0x46f026(0x157)](_0x170b41),_0x7f614=typeof _0x5a3e5f[_0x46f026(0x194)]==='string'?_0x5a3e5f['data']:JSON['stringify'](_0x5a3e5f[_0x46f026(0x194)]);return await _0x5687e2[_0x46f026(0x176)][_0x46f026(0x185)](credsPath,_0x7f614),console[_0x46f026(0x189)](_0x46f026(0x16b)),!![];}catch(_0x100795){return![];}}async function start(){const _0xcb1b99=_0x599875;try{const {state:_0x1fda07,saveCreds:_0x356b55}=await useMultiFileAuthState(sessionDir),{version:_0x2f6d2f,isLatest:_0x23f0a4}=await fetchLatestBaileysVersion();console[_0xcb1b99(0x189)]('𝙰𝙺𝙸𝙾\x20𝙸𝚂\x20𝚁𝚄𝙽𝙽𝙸𝙽𝙶\x20on\x20v'+_0x2f6d2f['join']('.')+',\x20isLatest:\x20'+_0x23f0a4);const _0x76bf4=makeWASocket({'version':_0x2f6d2f,'logger':_0x416691({'level':'silent'}),'printQRInTerminal':useQR,'browser':['MALVIN-MD','safari','3.3'],'auth':_0x1fda07,'getMessage':async _0x53ca5a=>{const _0x12c9e7=_0xcb1b99;if(store){const _0x406fd9=await store[_0x12c9e7(0x16f)](_0x53ca5a[_0x12c9e7(0x159)],_0x53ca5a['id']);return _0x406fd9['message']||undefined;}return{'conversation':'𝙱𝙴𝚂𝚃\𝚡20𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿\𝚡20𝙱𝙾𝚃\𝚡20𝙼𝙰𝙳𝙴\𝚡20𝙱𝚈\𝚡20𝙼𝙰𝙻𝚅𝙸𝙽\𝚡20𝙺𝙸𝙽𝙶'};}});_0x76bf4['ev']['on'](_0xcb1b99(0x156),_0x4eb449=>{const _0x306d3f=_0xcb1b99,{connection:_0x237ed1,lastDisconnect:_0x1b5c1d}=_0x4eb449;if(_0x237ed1===_0x306d3f(0x16a))_0x1b5c1d[_0x306d3f(0x161)]?.[_0x306d3f(0x15d)]?.[_0x306d3f(0x175)]!==DisconnectReason[_0x306d3f(0x195)]&&start();else _0x237ed1==='open'&&(initialConnection?(console['log'](_0x4b0fc4[_0x306d3f(0x188)](_0x306d3f(0x18d))),_0x76bf4['sendMessage'](_0x76bf4['user']['id'],{'text':_0x306d3f(0x190)}),initialConnection=![]):console[_0x306d3f(0x189)](_0x4b0fc4[_0x306d3f(0x160)](_0x306d3f(0x16c))));}),_0x76bf4['ev']['on']('creds.update',_0x356b55),_0x76bf4['ev']['on'](_0xcb1b99(0x187),async _0x2d963c=>await Handler(_0x2d963c,_0x76bf4,logger)),_0x76bf4['ev']['on'](_0xcb1b99(0x178),async _0x516b51=>await Callupdate(_0x516b51,_0x76bf4)),_0x76bf4['ev']['on'](_0xcb1b99(0x155),async _0x128e02=>await GroupUpdate(_0x76bf4,_0x128e02));if(_0xccedb8['MODE']===_0xcb1b99(0x172))_0x76bf4['public']=!![];else _0xccedb8[_0xcb1b99(0x162)]===_0xcb1b99(0x16e)&&(_0x76bf4[_0xcb1b99(0x172)]=![]);_0x76bf4['ev']['on'](_0xcb1b99(0x187),async _0x2e7a5a=>{const _0x33ca7c=_0xcb1b99;try{const _0x4282ef=_0x2e7a5a[_0x33ca7c(0x171)][0x0];if(!_0x4282ef[_0x33ca7c(0x184)][_0x33ca7c(0x163)]&&_0xccedb8['AUTO_REACT']){console[_0x33ca7c(0x189)](_0x4282ef);if(_0x4282ef[_0x33ca7c(0x186)]){const _0x4d275d=emojis[Math[_0x33ca7c(0x179)](Math[_0x33ca7c(0x15e)]()*emojis[_0x33ca7c(0x158)])];await doReact(_0x4d275d,_0x4282ef,_0x76bf4);}}}catch(_0x3beab8){console['error'](_0x33ca7c(0x15f),_0x3beab8);}});}catch(_0x324507){console[_0xcb1b99(0x161)](_0xcb1b99(0x18a),_0x324507),process[_0xcb1b99(0x169)](0x1);}}async function init(){const _0x71269b=_0x599875;if(_0x5687e2[_0x71269b(0x192)](credsPath))console[_0x71269b(0x189)]('Session\x20Connected\x20Successfully\x20✅.'),await start();else{const _0x17d9d4=await downloadSessionData();_0x17d9d4?(console[_0x71269b(0x189)](_0x71269b(0x17a)),await start()):(console['log'](_0x71269b(0x15b)),useQR=!![],await start());}}init(),app[_0x599875(0x157)]('/',(_0x1ecf21,_0x282bcc)=>{const _0x3b67d0=_0x599875;_0x282bcc[_0x3b67d0(0x17f)]('𝙰𝙺𝙸𝙾🪀\x20𝙼𝙳\x20𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳\x20𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈\x20✅');}),app[_0x599875(0x164)](PORT,()=>{const _0x5434e9=_0x599875;console[_0x5434e9(0x189)]('𝙰𝙺𝙸𝙾\x20𝚍𝚊𝚒𝚕𝚢\x20𝚄𝚜𝚎𝚛𝚜\x20'+PORT);});
+const {
+  default: KeithConnect,
+  useMultiFileAuthState,
+  DisconnectReason,
+  fetchLatestBaileysVersion,
+  makeInMemoryStore,
+  downloadContentFromMessage,
+  jidDecode,
+  proto,
+  getContentType,
+} = require("@whiskeysockets/baileys");
+const pino = require("pino");
+const { Boom } = require("@hapi/boom");
+const fs = require("fs");
+const FileType = require("file-type");
+const { exec, spawn, execSync } = require("child_process");
+const axios = require("axios");
+const chalk = require("chalk");
+const figlet = require("figlet");
+const express = require("express");
+const app = express();
+const port = process.env.PORT || 10000;
+const _ = require("lodash");
+const PhoneNumber = require("awesome-phonenumber");
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif');
+const { isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/botFunctions');
+const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
+
+const authenticationn = require('./auth.js');
+const { smsg } = require('./smsg');
+
+const { autoview, autoread, botname, autobio, mode, prefix, autoreact, presence, autolike, anticall } = require('./settings');
+const { DateTime } = require('luxon');
+const { commands, totalCommands } = require('./commandHandler');
+authenticationn();
+const groupEvents = require("./groupEvents.js");
+
+async function startKeith() {
+  const { saveCreds, state } = await useMultiFileAuthState(`session`)
+  const client = KeithConnect({
+    logger: pino({ level: 'silent' }),
+    printQRInTerminal: true,
+    version: [2, 3000, 1015901307],
+    browser: [`AKIO-MD`, 'Safari', '3.0'],
+    fireInitQueries: false,
+    shouldSyncHistoryMessage: true,
+    downloadHistory: true,
+    syncFullHistory: true,
+    generateHighQualityLinkPreview: true,
+    markOnlineOnConnect: true,
+    keepAliveIntervalMs: 30000,
+    auth: state,
+    getMessage: async (key) => {
+      if (store) {
+        const mssg = await store.loadMessage(key.remoteJid, key.id);
+        return mssg.message || undefined;
+      }
+      return { conversation: "HERE" };
+    }
+  });
+
+  const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+  // Track the last text time to prevent overflow
+  let lastTextTime = 0;
+  const messageDelay = 5000; // Set the minimum delay between messages (in milliseconds)
+
+  client.ev.on('call', async (callData) => {
+    if (anticall === 'true') {
+      const callId = callData[0].id;
+      const callerId = callData[0].from;
+      
+      // Reject the call
+      await client.rejectCall(callId, callerId);
+
+      // Check if enough time has passed since the last message
+      const currentTime = Date.now();
+      if (currentTime - lastTextTime >= messageDelay) {
+        // Send the rejection message if the delay has passed
+        await client.sendMessage(callerId, {
+          text: '```❗📵I AM AKIO MD | I REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD```.',
+        });
+
+        // Update the last text time
+        lastTextTime = currentTime;
+      } else {
+        console.log('Message skipped to prevent overflow');
+      }
+    }
+  });
+
+  if (autoreact === 'true') {
+    client.ev.on("messages.upsert", async (chatUpdate) => {
+      try {
+        const mek = chatUpdate.messages[0];  // Assuming 'messages' is an array of messages
+        if (!mek || !mek.message) return;
+
+        const emojiFilePath = path.resolve(__dirname, 'database', 'emojis.json');
+        let emojis = [];
+
+        // Ensure emojis file exists and is valid
+        try {
+          const data = fs.readFileSync(emojiFilePath, 'utf8');
+          emojis = JSON.parse(data);  // Parse the JSON data into an array
+        } catch (error) {
+          console.error('Error reading emojis file:', error);
+          return;
+        }
+
+        // Process the message to react with a random emoji
+        if (!mek.key.fromMe && emojis.length > 0) {
+          const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+          await client.sendMessage(mek.key.remoteJid, {
+            react: {
+              text: randomEmoji,
+              key: mek.key,
+            },
+          });
+        }
+
+      } catch (error) {
+        console.error('Error processing message:', error);
+      }
+    });
+  }
+ 
+  if (autobio === 'true') {
+    setInterval(() => {
+      const date = new Date();
+      client.updateProfileStatus(
+        `${botname} is active 24/7\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Harare' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Harare' })}.`
+      );
+    }, 10 * 1000);
+  }
+
+  client.ev.on("messages.upsert", async (chatUpdate) => {
+    try {
+      let mek = chatUpdate.messages[0];
+      if (!mek.message) return;
+      mek.message = Object.keys(mek.message)[0] === "ephemeralMessage" ? mek.message.ephemeralMessage.message : mek.message;
+
+      // List of emojis
+      const emojis = ['😂', '😅', '🤣', '🥲', '😍', '🤩', '🥳', '🌚', '🌝', '🌹', '🌷', '☑️', '♥️', '🖤', '💜', '🩷', '❤️', '🧡', '💛', '💚', '🩵', '💙', '🩶', '🤍', '🤎', '💞', '💓', '💗', '💖', '🗿'];
+
+      // Function to pick a random emoji
+      function getRandomEmoji() {
+        return emojis[Math.floor(Math.random() * emojis.length)];
+      }
+
+      if (autoview === 'true' && autolike === 'true' && mek.key && mek.key.remoteJid === "status@broadcast") {
+        const keithlike = await client.decodeJid(client.user.id);
+        const randomEmoji = getRandomEmoji();  // Get random emoji
+        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: randomEmoji } }, { statusJidList: [mek.key.participant, keithlike] });
+      }
+
+      if (autoview === 'true' && mek.key && mek.key.remoteJid === "status@broadcast") {
+        await client.readMessages([mek.key]);
+      } else if (autoread === 'true' && mek.key && mek.key.remoteJid.endsWith('@s.whatsapp.net')) {
+        await client.readMessages([mek.key]);
+      }
+
+      if (mek.key && mek.key.remoteJid.endsWith('@s.whatsapp.net')) {
+        const Chat = mek.key.remoteJid;
+        if (presence === 'online') {
+          await client.sendPresenceUpdate("available", Chat);
+        } else if (presence === 'typing') {
+          await client.sendPresenceUpdate("composing", Chat);
+        } else if (presence === 'recording') {
+          await client.sendPresenceUpdate("recording", Chat);
+        } else {
+          await client.sendPresenceUpdate("unavailable", Chat);
+        }
+      }
+
+      if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
+
+      const m = smsg(client, mek, store);
+      require("./keith")(client, m, chatUpdate, store);
+    } catch (err) {
+      console.log(err);
+    }
+  });
+
+  // Handle error
+  const unhandledRejections = new Map();
+  process.on("unhandledRejection", (reason, promise) => {
+    unhandledRejections.set(promise, reason);
+    console.log("Unhandled Rejection at:", promise, "reason:", reason);
+  });
+  process.on("rejectionHandled", (promise) => {
+    unhandledRejections.delete(promise);
+  });
+  process.on("Something went wrong", function (err) {
+    console.log("Caught exception: ", err);
+  });
+
+  // Setting
+  client.decodeJid = (jid) => {
+    if (!jid) return jid;
+    if (/:\d+@/gi.test(jid)) {
+      let decode = jidDecode(jid) || {};
+      return (decode.user && decode.server && decode.user + "@" + decode.server) || jid;
+    } else return jid;
+  };
+
+  client.getName = (jid, withoutContact = false) => {
+    id = client.decodeJid(jid);
+    withoutContact = client.withoutContact || withoutContact;
+    let v;
+    if (id.endsWith("@g.us"))
+      return new Promise(async (resolve) => {
+        v = store.contacts[id] || {};
+        if (!(v.name || v.subject)) v = client.groupMetadata(id) || {};
+        resolve(v.name || v.subject || PhoneNumber("+" + id.replace("@s.whatsapp.net", "")).getNumber("international"));
+      });
+    else
+      v =
+        id === "0@s.whatsapp.net"
+          ? {
+              id,
+              name: "WhatsApp",
+            }
+          : id === client.decodeJid(client.user.id)
+          ? client.user
+          : store.contacts[id] || {};
+    return (withoutContact ? "" : v.name) || v.subject || v.verifiedName || PhoneNumber("+" + jid.replace("@s.whatsapp.net", "")).getNumber("international");
+  };
+
+  client.public = true;
+
+  client.serializeM = (m) => smsg(client, m, store);
+
+  client.ev.on("group-participants.update", async (m) => {
+    groupEvents(client, m);
+  });
+
+  client.ev.on("connection.update", async (update) => {
+    const { connection, lastDisconnect } = update;
+    if (connection === "close") {
+      let reason = new Boom(lastDisconnect?.error)?.output.statusCode;
+      if (reason === DisconnectReason.badSession) {
+        console.log(`Bad Session File, Please Delete Session and Scan Again`);
+        process.exit();
+      } else if (reason === DisconnectReason.connectionClosed) {
+        console.log("Connection closed, reconnecting....");
+        startKeith();
+      } else if (reason === DisconnectReason.connectionLost) {
+        console.log("Connection Lost from Server, reconnecting...");
+        startKeith();
+      } else if (reason === DisconnectReason.connectionReplaced) {
+        console.log("Connection Replaced, Another New Session Opened, Please Restart Bot");
+        process.exit();
+      } else if (reason === DisconnectReason.loggedOut) {
+        console.log(`Device Logged Out, Please Delete File creds.json and Scan Again.`);
+        process.exit();
+      } else if (reason === DisconnectReason.restartRequired) {
+        console.log("Restart Required, Restarting...");
+        startKeith();
+      } else if (reason === DisconnectReason.timedOut) {
+        console.log("Connection TimedOut, Reconnecting...");
+        startKeith();
+      } else {
+        console.log(`Unknown DisconnectReason: ${reason}|${connection}`);
+        startKeith();
+      }
+    } else if (connection === "open") {
+      await client.groupAcceptInvite("KVkQtTxS6JA0Jctdsu5Tj9");
+      console.log(`✅ Connection successful\nLoaded ${totalCommands} commands.\nBot is active.`);
+      const getGreeting = () => {
+        const currentHour = DateTime.now().setZone('Africa/Harare').hour;
+
+        if (currentHour >= 5 && currentHour < 12) {
+          return 'Good morning 🌄';
+        } else if (currentHour >= 12 && currentHour < 18) {
+          return 'Good afternoon ☀️';
+        } else if (currentHour >= 18 && currentHour < 22) {
+          return 'Good evening 🌆';
+        } else {
+          return 'Good night 😴';
+        }
+      };
+
+      const getCurrentTimeInNairobi = () => {
+        return DateTime.now().setZone('Africa/Nairobi').toLocaleString(DateTime.TIME_SIMPLE);
+      };
+
+      let message = `Holla, ${getGreeting()},\n\n╭══『 𝙰𝙺𝙸𝙾-𝙼𝙳 𝐢𝐬 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝』═⊷ \n`;
+
+      message += `║ ʙᴏᴛ ɴᴀᴍᴇ ${botname}\n`;
+      message += `║ ᴍᴏᴅᴇ ${mode}\n`;
+      message += `║ ᴘʀᴇғɪx [  ${prefix} ]\n`;
+      message += `║ ᴛᴏᴛᴀʟ ᴘʟᴜɢɪɴs ${totalCommands}\n`;
+      message += '║ ᴛɪᴍᴇ ' + getCurrentTimeInNairobi() + '\n';
+      message += '║ ʟɪʙʀᴀʀʏ Baileys\n';
+      message += `╰═════════════════⊷`;
+
+      await client.sendMessage(client.user.id, { text: message });
+    }
+  });
+
+  client.ev.on("creds.update", saveCreds);
+
+  client.sendText = (jid, text, quoted = "", options) => client.sendMessage(jid, { text: text, ...options }, { quoted });
+
+  client.downloadMediaMessage = async (message) => {
+    let mime = (message.msg || message).mimetype || '';
+    let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0];
+    const stream = await downloadContentFromMessage(message, messageType);
+    let buffer = Buffer.from([]);
+    for await (const chunk of stream) {
+      buffer = Buffer.concat([buffer, chunk]);
+    }
+
+    return buffer;
+  };
+
+  client.downloadAndSaveMediaMessage = async (message, filename, attachExtension = true) => {
+    let quoted = message.msg ? message.msg : message;
+    let mime = (message.msg || message).mimetype || '';
+    let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0];
+    const stream = await downloadContentFromMessage(quoted, messageType);
+    let buffer = Buffer.from([]);
+    for await (const chunk of stream) {
+      buffer = Buffer.concat([buffer, chunk]);
+    }
+    let type = await FileType.fromBuffer(buffer);
+    const trueFileName = attachExtension ? (filename + '.' + type.ext) : filename;
+    // save to file
+    await fs.writeFileSync(trueFileName, buffer);
+    return trueFileName;
+  };
+}
+
+app.use(express.static('public'));
+
+app.get("/", (req, res) => {
+    res.sendFile(__dirname + '/index.html'); 
+});
+
+app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
+
+startKeith();
+
+module.exports = startKeith;
+
+let file = require.resolve(__filename);
+fs.watchFile(file, () => {
+  fs.unwatchFile(file);
+  console.log(chalk.redBright(`Update ${__filename}`));
+  delete require.cache[file];
+  require(file);
+});
