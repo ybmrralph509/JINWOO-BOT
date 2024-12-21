@@ -177,7 +177,7 @@ async function startKeith() {
       if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
 
       const m = smsg(client, mek, store);
-      require("./keith")(client, m, chatUpdate, store);
+      require("./akio")(client, m, chatUpdate, store);
     } catch (err) {
       console.log(err);
     }
