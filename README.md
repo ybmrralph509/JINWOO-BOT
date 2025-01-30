@@ -12,7 +12,7 @@
 <p align="center">
 <div align="center"> 
   <a href="https://youtube.com/@malvintech2"> 
-    <img src="https://github.com/kingmalvn/JINWOO-BOT/blob/main/assets/jinwoo.jpg" alt="JINWOO BOT" height="300"> 
+    <img src="https://github.com/kingmalvn/JINWOO-BOT/blob/main/assets/jinwoo.jpg" alt="JINWOO BOT" height="250"> 
   </a> 
 </div>
   </a>
@@ -94,6 +94,8 @@ For further customization and setup guidance, click the button below:
 
 ### Free & Paid Hosting Options
 
+<details>
+
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/)
 
@@ -105,59 +107,83 @@ For further customization and setup guidance, click the button below:
 
 [![Deploy to Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Deploy%20to-Hugging%20Face-blue)](https://huggingface.co/login?next=%2Fspaces%2Fwhatsapp-bot%2Fknightbot%3Fduplicate%3Dtrue)
 
+</details >
+
 ### Additional Hosting Panels
+
+<details>
+
+
+
+6. ## Deploy to Solarhosting ↓
 
 <a href="https://account.solarhosting.cc/" target="_blank">
   <img src="https://img.shields.io/badge/Solar_Hosting-FF6B6B?style=for-the-badge&logo=server&logoColor=white" alt="Solar Hosting"/>
 </a>
 
+7. ## Deploy to blarehost ↓
+
 <a href="https://my.blare.host/" target="_blank">
   <img src="https://img.shields.io/badge/Blare_Host-4A90E2?style=for-the-badge&logo=server&logoColor=white" alt="Blare Host"/>
 </a>
+
+8. ## Deploy to Witchly Host ↓
 
 <a href="https://dash.witchly.host/auth/login.php?ref=wxJbOr" target="_blank">
   <img src="https://img.shields.io/badge/Witchly_Host-9B59B6?style=for-the-badge&logo=server&logoColor=white" alt="Witchly Host"/>
 </a>
 
+10. ## Deploy to OPTLINK ↓
+
 <a href="https://optiklink.com/" target="_blank">
   <img src="https://img.shields.io/badge/Optik_Link-2ECC71?style=for-the-badge&logo=server&logoColor=white" alt="Optik Link"/>
 </a>
+
+11. ## Deploy to PANEL SILLYDEV ↓
 
 <a href="https://panel.sillydev.co.uk" target="_blank">
   <img src="https://img.shields.io/badge/SillyDev_Panel-E67E22?style=for-the-badge&logo=server&logoColor=white" alt="SillyDev Panel"/>
 </a>
 
-
+12. ## Deploy to BOT HOSTING ↓
 
 <a href="https://bot-hosting.net/?aff=1231885228566646795" target="_blank">
   <img src="https://img.shields.io/badge/Bot_Hosting-E74C3C?style=for-the-badge&logo=server&logoColor=white" alt="Bot Hosting"/>
 </a>
 
+13. ## Deploy to PANEL HARDY HOST ↓
+
 <a href="https://panel.hardy.host/auth/login" target="_blank">
   <img src="https://img.shields.io/badge/Hardy_Host-F1C40F?style=for-the-badge&logo=server&logoColor=black" alt="Hardy Host"/>
 </a>
+
+14. ## Deploy to KATABUMP ↓
 
 <a href="https://dashboard.katabump.com/auth/login#5db6cb" target="_blank">
   <img src="https://img.shields.io/badge/Katabump-D6B7D6?style=for-the-badge&logo=server&logoColor=black" alt="Katabump"/>
 </a>
 
+15. ## Deploy to DAKI CC ↓
+
+
 <a href="https://daki.cc" target="_blank">
   <img src="https://img.shields.io/badge/Daki_CC-34495E?style=for-the-badge&logo=server&logoColor=white" alt="Daki CC"/>
 </a>
+
+16. ## Deploy to PELLA ↓
 
 <a href="https://pella.app" target="_blank">
   <img src="https://img.shields.io/badge/Pella_App-16A085?style=for-the-badge&logo=server&logoColor=white" alt="Pella App"/>
 </a>
 
-
+</details>
 
 ---
 
 ### Join Us
 
 <div align="center">
-  <a href="https://youtube.com/@malvintech2">
-    <img src="https://img.shields.io/badge/Subscribe%x20YouTube-0078E7?style=for-the-badge&logo=youtube&logoColor=white" alt=Subscribe-Youtube"/>
+  <a href="https://youtube.com/@malvintech2"><img title="Author" src="https://img.shields.io/badge/YT CHANNEL-darkred?style=for-the-badge&logo=youtube"/>
   </a>
   <a href="https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z">
     <img src="https://img.shields.io/badge/Join%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Join WhatsApp"/>
