@@ -86,7 +86,7 @@ For further customization and setup guidance, click the button below:
   <a href="https://youtu.be/dDyiEHF8rIQ">
     <img src="https://img.shields.io/badge/Deploy Tutorial-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
   </a>
-  <a href="https://bot-hosting.net/?aff=1068419752923508776">
+  <a href="https://bot-hosting.net/?aff=1231885228566646795">
     <img src="https://img.shields.io/badge/Deploy on Panel-28a745?style=for-the-badge" alt="Deploy on Panel"/>
   </a>
 </div>
@@ -115,7 +115,7 @@ For further customization and setup guidance, click the button below:
   <img src="https://img.shields.io/badge/Blare_Host-4A90E2?style=for-the-badge&logo=server&logoColor=white" alt="Blare Host"/>
 </a>
 
-<a href="https://dash.witchly.host/" target="_blank">
+<a href="https://dash.witchly.host/auth/login.php?ref=wxJbOr" target="_blank">
   <img src="https://img.shields.io/badge/Witchly_Host-9B59B6?style=for-the-badge&logo=server&logoColor=white" alt="Witchly Host"/>
 </a>
 
