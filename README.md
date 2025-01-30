@@ -166,8 +166,8 @@ For further customization and setup guidance, click the button below:
 ### Join Us
 
 <div align="center">
-  <a href="https://t.me/malvintech">
-    <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=white" alt="Join Telegram"/>
+  <a href="https://youtube.com/@malvintech2">
+    <img src="https://img.shields.io/badge/Subscribe%x20YouTube-0078E7?style=for-the-badge&logo=youtube&logoColor=white" alt=Subscribe Youtube"/>
   </a>
   <a href="https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z">
     <img src="https://img.shields.io/badge/Join%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Join WhatsApp"/>
@@ -250,8 +250,7 @@ If you like this project, please give it a [⭐️ star on GitHub](https://githu
 
 ## Credits
 
-- [Malvin King](https://github.com/kingmalvn)
-- [Professor](https://github.com/mruniquehacker)
+- [TechLord](https://github.com/kingmalvn)
 - [Baileys](https://github.com/adiwajshing/Baileys)
 - [TechGod143](https://github.com/TechGod143) for pair code
 - [Dgxeon](https://github.com/Dgxeon) for pair code
