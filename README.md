@@ -127,17 +127,7 @@ For further customization and setup guidance, click the button below:
   <img src="https://img.shields.io/badge/SillyDev_Panel-E67E22?style=for-the-badge&logo=server&logoColor=white" alt="SillyDev Panel"/>
 </a>
 
-<a href="https://cloves.mypi.co/" target="_blank">
-  <img src="https://img.shields.io/badge/Cloves_MyPi-3498DB?style=for-the-badge&logo=server&logoColor=white" alt="Cloves MyPi"/>
-</a>
 
-<a href="https://client.botwa.net/login" target="_blank">
-  <img src="https://img.shields.io/badge/BotWA_Panel-27AE60?style=for-the-badge&logo=server&logoColor=white" alt="BotWA Panel"/>
-</a>
-
-<a href="https://netherite.io/" target="_blank">
-  <img src="https://img.shields.io/badge/Netherite_Host-8E44AD?style=for-the-badge&logo=server&logoColor=white" alt="Netherite Host"/>
-</a>
 
 <a href="https://bot-hosting.net/?aff=1231885228566646795" target="_blank">
   <img src="https://img.shields.io/badge/Bot_Hosting-E74C3C?style=for-the-badge&logo=server&logoColor=white" alt="Bot Hosting"/>
@@ -167,7 +157,7 @@ For further customization and setup guidance, click the button below:
 
 <div align="center">
   <a href="https://youtube.com/@malvintech2">
-    <img src="https://img.shields.io/badge/Subscribe%x20YouTube-0078E7?style=for-the-badge&logo=youtube&logoColor=white" alt=Subscribe Youtube"/>
+    <img src="https://img.shields.io/badge/Subscribe%x20YouTube-0078E7?style=for-the-badge&logo=youtube&logoColor=white" alt=Subscribe-Youtube"/>
   </a>
   <a href="https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z">
     <img src="https://img.shields.io/badge/Join%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Join WhatsApp"/>
