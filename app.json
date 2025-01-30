@@ -1,137 +1,50 @@
 {
-  "name": "𝙰𝙺𝙸𝙾-𝙼𝙳",
-  "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
-  "keywords": [
-    "bot",
-    "whatsapp",
-    "akio",
-    "whatsapp-stickers",
-    "anime",
-    "whatsapp-bot",
-    "whatsapp-sticker-bot",
-    "whatsapp-botto",
-    "baileys",
-    "baileys-md",
-    "md-bot",
-    "akio-md"
-  ],
-  "website": "https://github.com/kingmalvn/AKIO-MD#readme",
-  "repository": "https://github.com/kingmalvn/AKIO-MD.git",
-  "logo": "https://files.catbox.moe/qeshxp.jpg",
-  "success_url": "/",
-  "env": {
-    "PREFIX": {
-      "description": "choose your prefix for keith. To prevent errors and confusion you must set a prefix",
-      "value": ".",
-      "required": true
-    },
-    "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 263780934873, 263780166288 ",
-      "required": false
-
+    "name": "jinwoo-bot",
+    "description": "Advanced WhatsApp Bot with Multiple Features",
+    "keywords": [
+        "bot",
+        "whatsapp",
+        "whatsapp-bot",
+        "jinwoobot",
+        "multi-device"
+    ],
+    "repository": "https://github.com/kingmalvn/JINWOO-BOT",
+    "stack": "container",
+    "env": {
+        "SESSION_ID": {
+            "description": "Session ID obtained after scanning QR code",
+            "required": false
         },
-    "ANTICALL": {
-      "description": "Type true if you want the bot to decline unnecessary calls ",
-      "value": "true",
-      "required": false
-      },
-    "ANTI_BAD_WORD": {
-      "description": "Type true if you want bot to automatically detect bad words and remove or block in your pm ",
-      "value": "true",
-      "required": false
-   
+        "OWNER_NUMBER": {
+            "description": "Your WhatsApp number (e.g., 263714757857)",
+            "required": false
+        },
+        "PREFIX": {
+            "description": "Prefix for bot commands",
+            "value": ".",
+            "required": false
+        }
     },
-    "CODE": {
-      "description": "Enter your country code without +. Example: 254 for Kenya. This will allow bot to detect and remove foreigners if commanded",
-      "value": "254",
-      "required": true
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "basic"
+        }
     },
-    "STICKER_AUTHOR": {
-      "description": "Put your sticker author data",
-      "value": "Keith",
-      "required": false
-    },
-    "STICKER_PACKNAME": {
-      "description": "Put your sticker packname data",
-      "value": "akii",
-      "required": false
-    },
-    "BOTNAME": {
-      "description": "Enter name for your bot,,you can change this.",
-      "value": "𝙰𝙺𝙸𝙾-𝙼𝙳",
-      "required": false
-    },
-    "GC_PRESENCE": {
-      "description": "Type true if you want bot to show fake recording/typing in group chats.",
-      "required": false
-    },
-    "SESSION": {
-      "description": "Paste the session id that you received in whatsapp after linking the bot. It's used for authentication.",
-      "required": true
-    },
-    "AUTOVIEW_STATUS": {
-      "description": "Type true if you want bot to automatically read all status update",
-      "value": "true",
-      "required": false
-    },
-
-"EVENTS": {
-      "description": "choose whether to allow bot to detect events in groups such as promote, demote, remove and add. If set to true bot will send welcome/goodbye messages and signal when somebody is promoted or demoted.",
-      "value": "false",
-      "required": true
-    },
-"AUTOBIO": {
-      "description": "Type true if you want bot to autoupdate it's bio constantly",
-      "value": "true",
-      "required": false
-    },
-
-"ANTITAG": {
-      "description": "Type true if you want bot to automatically remove members who tagall or use hidetag.",
-      "value": "true",
-      "required": false
-    },
-"ANTILINK": {
-      "description": "Type true if you want bot to automatically remove members who send link.",
-      "value": "true",
-      "required": false
-    },    
-"ANTIVIEWONCE": {
-      "description": "Type true if you want bot to automatically read viewonce media",
-      "value": "true",
-      "required": false
-    },
-
- "AUTOLIKE_STATUS": {
-      "description": "Type true if you want bot to automatically like status updates, this will only work if AUTOVIEW_STATUS is true.",
-      "value": "true",
-      "required": false
-    },
-    "AUTOREAD": {
-      "description": "Put here true if you want bot to automatically bluetick messages in private.",
-      "value": "false",
-      "required": false
-    },
-    "WA_PRESENCE": {
-      "description": "This is your WhatsApp Presence Status: Here's how to set it up: Type *typing* if you want bot to show typing..., Type *recording* if you want bot to show recording..., Type *online* if you want bot to be always online, Leave this field blank if you want bot to show your actual presence.",
-      "value": "typing",
-      "required": false
-    },
-    "MODE": {
-      "description": "Type private if you don't want other people to use the bot or public if you want everyone to access.",
-      "value": "public",
-      "required": false
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    }
-  ]
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        },
+        {
+            "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+        }
+    ],
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
 }

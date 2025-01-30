@@ -1,61 +1,13 @@
-/* Bot settings 
-
-You don't have to set this if you deploy using heroku because you can simply set them in environment variables, also don't forget to sleep */
-
-
-const session = process.env.SESSION || '';
-
-const prefix = process.env.PREFIX || '.';
-const mycode = process.env.CODE || "263";
-const author = process.env.STICKER_AUTHOR || 'Akii;
-const packname = process.env.PACKNAME || 'akii';
-const dev = process.env.DEV || '263714757857';
-const DevKeith = dev.split(",");
-const botname = process.env.BOTNAME || '𝙰𝙺𝙸𝙾-𝙼𝙳';
-const mode = process.env.MODE || 'public';
-const gcpresence = process.env.GC_PRESENCE || 'false';
-const antionce = process.env.ANTIVIEWONCE || 'true';
-const sessionName = "session";
-const presence = process.env.WA_PRESENCE || 'online';
-
-const antitag = process.env.ANTITAG || 'true';
-const antispam = process.env.ANTISPAM || 'true';
-const chatbot = process.env.CHAT_BOT || 'true';
-const antilink = process.env.ANTILINK || 'true';
-const autoreact = process.env.AUTOREACT || 'true';
-const antibot = process.env.ANTIBOT || 'true';
-const anticall = process.env.ANTICALL || 'true';
-const antibad = process.env.ANTI_BAD_WORD || 'true';
-const antidelete = process.env.ANTIDELETE || 'true';
-const autoview = process.env.AUTOVIEW_STATUS || 'true';
-const autolike = process.env.AUTOLIKE_STATUS || 'true';
-const autoread = process.env.AUTOREAD || 'true';
-const autobio = process.env.AUTOBIO || 'false';
-
-module.exports = {
-  sessionName,
-  presence,
-  autoview,
-  autoread,
-  botname,
-  autobio,
-  autoreact,
-  mode,
-  antibad,
-  antilink,
-  prefix,
-  anticall,
-  chatbot,
-  autolike,
-  mycode,
-  author,
-  packname,
-  dev,
-  DevKeith,
-  gcpresence,
-  antionce,
-  antibot,
-  session,
-  antitag,
-  antidelete
+const settings = {
+  packname: 'Jin',
+  author: 'Malvin',
+  botName: "JINWOO Bot",
+  botOwner: 'Malvin King', // Your name
+  ownerNumber: '263714757857', //Your number
+  giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
+  commandMode: "public",
+  description: "This is a bot for managing group commands and automating tasks.",
+  version: "1.0.0",
 };
+
+module.exports = settings;
