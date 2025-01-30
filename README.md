@@ -69,7 +69,7 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
 Deploy the bot and easily connect it to your WhatsApp account by pair code. Click the button below to deploy the bot on Replit.
 
 <div align="center">
-  <a href="https://replit.com/@DGXeon/Xeon-PairCode?v=1">
+  <a href="https://replit.com/@malvink003/JINWOO-PAIR?v=1">
     <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Replit-success?style=for-the-badge" alt="Deploy on Replit"/>
   </a>
 </div>
@@ -92,7 +92,10 @@ For further customization and setup guidance, click the button below:
 </div>
 
 
-### Free & Paid Hosting Options
+### Hosting Options
+
+### Normal Host click details button ↓
+
 
 <details>
 
@@ -110,6 +113,9 @@ For further customization and setup guidance, click the button below:
 </details >
 
 ### Additional Hosting Panels
+
+***Click details button ↓***
+
 
 <details>
 
