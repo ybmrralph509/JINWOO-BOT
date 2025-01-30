@@ -139,7 +139,7 @@ For further customization and setup guidance, click the button below:
   <img src="https://img.shields.io/badge/Netherite_Host-8E44AD?style=for-the-badge&logo=server&logoColor=white" alt="Netherite Host"/>
 </a>
 
-<a href="https://bot-hosting.net/" target="_blank">
+<a href="https://bot-hosting.net/?aff=1231885228566646795" target="_blank">
   <img src="https://img.shields.io/badge/Bot_Hosting-E74C3C?style=for-the-badge&logo=server&logoColor=white" alt="Bot Hosting"/>
 </a>
 
@@ -147,7 +147,7 @@ For further customization and setup guidance, click the button below:
   <img src="https://img.shields.io/badge/Hardy_Host-F1C40F?style=for-the-badge&logo=server&logoColor=black" alt="Hardy Host"/>
 </a>
 
-<a href="https://dashboard.katabump.com/auth/login" target="_blank">
+<a href="https://dashboard.katabump.com/auth/login#5db6cb" target="_blank">
   <img src="https://img.shields.io/badge/Katabump-D6B7D6?style=for-the-badge&logo=server&logoColor=black" alt="Katabump"/>
 </a>
 
