@@ -49,18 +49,18 @@
 
 Click the button below to fork the JIN Bot repository to your GitHub account:
 
-    <br>
-    <p align="center">
+  <br>
+    <p align="left">
 <a href='https://github.com/kingmalvn/JINWOO-BOT/fork' target="_blank"><img alt='Fork Repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=orange&color=darkgreen'/></a>
 
 2. GET SESSION
     <br>
-    <p align="center">
+    <p align="left">
 <a href='https://jinwoo-pair-7a2966e4757b.herokuapp.com/pair' target="_blank"><img alt='REQUEST PAIR CODE' src='https://img.shields.io/badge/Pair_code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=darkorange'/></a>
 
 3. GET CREDS.JSON FILE
 
-<div align="center">
+<div align="left">
   <a href="https://replit.com/@malvink003/JINWOO-PAIR?v=1">
     <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Replit-success?style=for-the-badge" alt="Deploy on Replit"/>
   </a>
