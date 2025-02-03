@@ -1,15 +1,11 @@
+
+
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=3F00FF&center=true&width=900&height=100&lines=𝐍𝐄𝐗𝐔𝐒%20-𝐗𝐌𝐃;%20𝗠𝗨𝗟𝗧𝗜-𝗗𝗘𝗩𝗜𝗖𝗘%20𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣%20𝗕𝗢𝗧;%20𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗%20𝗕𝗬%20𝐌𝐀𝐋𝐕𝐈𝐍%20𝐊𝐈𝐍𝐆..💖)
 <p align="center">
 
 </p>
 
 
-<div align="center">
-</p
-
-<hr>
-<hr>
-<p align="center">
 <div align="center"> 
   <a href="https://youtube.com/@malvintech2"> 
     <img src="https://files.catbox.moe/ex1627.jpg" alt="JINWOO BOT" height="200"> 
@@ -26,7 +22,7 @@
 <p/> 
 
  <p align="center">
-<a href="https://github.com/kingmalvn/followers"><img title="Followers" src="https://img.shields.io/github/followers/kingmalvn?color=red&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/followers"><img title="Followers" src="https://img.shields.io/github/followers/kingmalvn?color=purple&style=flat-square"></a>
 <a href="https://github.com/kingmalvn/JINWOO-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/kingmalvn/JINWOO-BOT?color=blue&style=flat-square"></a>
 <a href="https://github.com/kingmalvn/JINWOO-BOT/network/members"><img title="Forks" src="https://img.shields.io/github/forks/kingmalvn/JINWOO-BOT?color=blue&style=flat-square"></a>
 <a href="https://github.com/kingmalvn/JINWOO-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/kingmalvn/JINWOO-BOT?label=Watchers&color=blue&style=flat-square"></a>
@@ -45,11 +41,14 @@
     </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-## 🛠️ `JINNBOT INSTALATION`
+## 🛠️ `JINBOT INSTALATION`
 
 
 
 1. Fork and star this repo first
+
+Click the button below to fork the JIN Bot repository to your GitHub account:
+
     <br>
     <p align="center">
 <a href='https://github.com/kingmalvn/JINWOO-BOT/fork' target="_blank"><img alt='Fork Repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=orange&color=darkgreen'/></a>
@@ -67,10 +66,12 @@
   </a>
 </div>
 
+### After getting creds.json file, upload it to session folder
 
 ## `DEPLOYMENTS`
   
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kingmalvn/JINWOO-BOT)
+
 💯 safe
     
 
@@ -90,8 +91,8 @@
  
 * `Fork` JINWOO Repository or `sync` if you had forked.
 * `Link` to your WhatsApp using Server 1, 2 or 3
-* Incase you use Server 3, paste the session id on settings.js @SESSION_ID
-* If you used Server 2, upload the `creds.json` received in the `session` folder.
+* Incase you use Server 2, paste the session id on settings.js @SESSION_ID
+* If you used Server 3, upload the `creds.json` received in the `session` folder.
 * Alternatively; you can open the `creds.json` using `Mt manager` or `treb edit` and copy everything and paste at `creds.json` on the `session` folder.
 * Go to `src>data>role>owner.json` and enter your number.
 * Edit your details at `settings.js` (Optional).
@@ -111,12 +112,19 @@
   <a href="https://dashboard.render.com/select-repo?type=web"><img src="https://img.shields.io/badge/render-333333?style=for-the-badge&logo=render&logoColor=FFFFFF"></a>
   <p align="center">
   <a href="https://account.solarhosting.cc/register?ref=6JR38R0T"><img src="https://img.shields.io/badge/solar hosting-000000?style=for-the-badge&logo=solar hosting&logoColor=FFA500"></a>
- <p align="center">
+  <p align="center">
   <a href="https://bot-hosting.net/?aff=1231885228566646795"><img src="https://img.shields.io/badge/bot hosting-000000?style=for-the-badge&logo=bot hosting &logoColor=FFA500"></a>
    <p align="center">
-<a href="https://dashboard.katabump.com/auth/login#5db6cb" target="_blank">
-  <img src="https://img.shields.io/badge/Katabump-D6B7D6?style=for-the-badge&logo=server&logoColor=black" alt="Katabump"/>
-</a
+   <a href="https://dashboard.katabump.com/auth/login#5db6cb" target="_blank">
+  <img src="https://img.shields.io/badge/Katabump-D6B7D6?style=for-the-badge&logo=server&logoColor=black" alt="Katabump"/></a>
+  <p align="center"
+  <a href="https://pella.app" target="_blank">
+  <img src="https://img.shields.io/badge/Pella_App-16A085?style=for-the-badge&logo=server&logoColor=white" alt="Pella App"/></a>
+  <p align="center" 
+  <a href="https://daki.cc" target="_blank">
+  <img src="https://img.shields.io/badge/Daki_CC-34495E?style=for-the-badge&logo=server&logoColor=white" alt="Daki CC"/>
+</a>
+
 </details>
 
 
@@ -208,3 +216,11 @@ npm i -g pm2 && pm2 start index.js -f && pm2 save && pm2 logs
 - *`JINWOO BOT` is not affiliated with `WhatsApp Inc`.*
 - *Misusing the bot may result in account banning.*
 - *Use at your own risk.*
+
+##
+ [ JINWOO WHATSAPP CHANNEL ](https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z)
+
+
+**© Jinwoo Bot**
+##
+![MIT License](https://img.shields.io/badge/License-green.svg)
